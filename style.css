@@ -13,7 +13,7 @@
 
 body {
     font-family: "Work Sans", sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     font-size: var(--fs-p);
     color: var(--clr-p);
     margin: 0;
