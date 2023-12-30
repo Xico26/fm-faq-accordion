@@ -15,7 +15,7 @@ body {
     font-family: "Work Sans", sans-serif;
     min-height: 100vh;
     font-size: var(--fs-p);
-    color: var(--clr-p);
+    color: var(--clr-ps);
     margin: 0;
     padding: 0;
     background: url("./assets/background-pattern-desktop.svg");
