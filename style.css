@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Outfit:wght@400;700&family=Work+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-bg: hsl(276, 100%, 97%);
+    --clr-ps: hsl(292, 16%, 49%);
+    --clr-hs: hsl(292, 42%, 14%);
+    --fs-p: 16px;
+    --fs-head: 2.5rem;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    height: 100vh;
+    font-size: var(--fs-p);
+    color: var(--clr-p);
+    margin: 0;
+    padding: 0;
+    background: url("./assets/background-pattern-desktop.svg");
+    background-color: var(--clr-bg);
+    background-size: 100% 20rem;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.wrapper {
+    --default-w: calc(600px - 5rem);
+    --default-h: calc(600px - 5rem);
+    background-color: var(--clr-white);
+    height: var(--default-h);
+    width: var(--default-w);
+    padding: 2.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+}
+
+.faq-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.faq-title {
+    font-size: var(--fs-head);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--clr-black);
+}
+
+.attribution a { 
+    color: var(--clr-gray); 
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        --w: calc(325px - 3rem);
+        width: var(--w);
+        height: calc(500px - 3rem);
+    }
+    .head-img {
+        width: 279px;
+    }
+}
